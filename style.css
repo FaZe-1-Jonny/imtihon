@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 1440px;
+}
+.main_text{
+display: flex; 
+align-items: center;  
+gap: 20px; 
+font-family: Open Sans;
+font-size: 26px;
+font-weight: 600;
+line-height: 32.68px;
+text-align: left;
+color: #DE2E54;
+}
+.navbar .red, .footer .section_two .red{
+    text-transform: uppercase;
+    font-family: Open Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 2px;
+text-align: left;
+color: #DE2E54;
+}
+.n_button{
+padding-left: 24px;
+padding-right: 24px;
+padding-top: 12px;
+padding-bottom: 12px;
+border: 2px #DE2E54 solid;
+border-radius: 8px;
+font-family: Open Sans Condensed;
+font-size: 15px;
+font-weight: 700;
+line-height: 22.5px;
+letter-spacing: 2px;
+text-align: left;
+color: #DE2E54;
+}
+.navbar p, .footer .section_two p{
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #222222;
+}
+.header .title{
+    margin-left: 200px;
+}
+.header h1{
+    margin-top: 150px;
+color:#FFFFFF;
+padding-right: 300px;
+font-family: Open Sans Condensed;
+font-size: 36px;
+font-weight: 700;
+line-height: 43.2px;
+text-align: left;
+}
+.h_button{
+padding: 12px 24px 12px 24px;
+border-radius: 8px;
+border: none;
+text-transform: uppercase;
+background-color: #DE2E54CC;
+font-family: Open Sans Condensed;
+font-size: 15px;
+font-weight: 700;
+line-height: 22.5px;
+letter-spacing: 2px;
+text-align: left;
+color: #FFFFFF;
+margin-top: 49px;
+
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(imgs/image\ 4\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100wh;
+    height: 540px;
+}
+.container{
+    margin-left: 288px;
+    margin-right: 288px;
+    margin-top: 65px;
+    width: 864px;
+    height: 417px;
+}
+.container .main-h1{
+font-family: Open Sans Condensed;
+font-size: 36px;
+font-weight: 700;
+line-height: 43.2px;
+text-align: left;
+color: #000000;
+text-align: center;
+
+}
+.container .cards{
+    margin-top: 30px;
+    margin-left: 50px;
+    
+}
+.container .card-1, .card-2{
+    margin-bottom: 100px;
+    display: flex;
+}
+.container .card-2{
+    margin-top: 80px;
+}
+.container .card-2 .text{
+    margin-right: 64px;
+}
+.container .card-1 .text{
+margin-left: 64px;
+}
+.container .text p{
+    margin-top: 24px;
+}
+.container  .card-1 h1{
+font-family: Open Sans Condensed;
+font-size: 24px;
+font-weight: 700;
+line-height: 28.8px;
+text-align: left;
+color: #222222;
+}
+.main{
+    background-color: #0EB4C1;
+    margin-top: 300px;
+}
+.main h1{
+    font-family: Inter;
+font-size: 64px;
+font-weight: 600;
+line-height: 77.45px;
+text-align: center;
+color: #000000;
+padding-top: 64px;
+padding-bottom: 111px;
+}
+.main .cards{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.main .card-2 form{
+    width: 540px;
+    height: 331px;
+    padding-top: 27px;
+}
+.main .card-2 form .input-1{
+    border: 1px #5E54A4 solid;
+}
+.main .card-2 form input{
+width: 460px;
+height: 39px;
+margin-top: 15px;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0.25px;
+text-align: left;
+padding-left: 32px;
+} 
+.main .card-2{
+    text-align: center;
+    background-color: white;
+    width: 513;
+    height: 331;
+}
+.main .card-2 .m_button{
+    background-color: #38CC8B;
+    text-align: center;
+    width: 460px;
+    height: 39px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px -4px 0px 0px #00000017 inset;
+    color: #FFFFFF;
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+line-height: 1px;
+}
+.footer{
+    background-color: #000000;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+padding-top: 24px;
+padding-bottom: 24px;
+}
+.footer .section_two{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.footer .section_two p{
+    margin-left: 25px;
+    padding-left: 32px;
+    color: #FFFFFF;
+}
